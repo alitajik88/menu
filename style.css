@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: darkslategrey;
+}
+
+.header .main-nav{
+    display: flex;
+    margin: 0 30px;
+}
+
+.header .main-nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+
+}
+
+.header .main-nav ul li{
+     margin: 20px 30px;
+     display: flex; 
+}
+
+.header .main-nav ul li a{
+    color: gold;
+    display: inline-block;
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+
+}
